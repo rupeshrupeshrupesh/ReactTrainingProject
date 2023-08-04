@@ -1,0 +1,41 @@
+/* Style for the main container */
+main {
+    padding: 20px;
+  }
+  
+  /* Style for the table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  /* Style for the table header */
+  thead th {
+    font-weight: bold;
+    padding: 8px;
+    border-bottom: 2px solid #ccc;
+    text-align: left;
+  }
+  
+  /* Style for the table data cells */
+  tbody td {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Style for the loading message */
+  tbody .loading-message {
+    text-align: center;
+  }
+  
+  /* Style for alternate row background color */
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Style for the header row background color */
+  thead tr {
+    background-color: #f0f0f0;
+  }
+  
